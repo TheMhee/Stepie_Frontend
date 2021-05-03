@@ -13,7 +13,7 @@ import { SessionProvider } from "./context/Sessioncontext"
 const client = new ApolloClient({
     cache: new InMemoryCache(),
     link: createUploadLink({
-        uri: "http://localhost:3001/graphql",
+        uri: "https://stepie-backend-ry2mu.ondigitalocean.app/stepie-backend/stepie-backend/graphql",
         credentials: "include",
     }),
 })
